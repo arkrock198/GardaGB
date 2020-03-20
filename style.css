@@ -159,7 +159,7 @@ body{
     color: #fff;
     font-size: 28px;
     top: calc(50% + 12px);
-    left: 350px;
+    left: 375px;
     transition: 0.5s;
     font-family: fantasy;
     transform: skew(0, 1deg);
@@ -173,7 +173,7 @@ body{
     text-shadow: 3px 3px 5px #aaff00;
 }
 #navbar.sticky h4{
-    left: 350px;
+    left: 375px;
 }
 
 /*--------------------------------------------------------------------------info---------------------*/
