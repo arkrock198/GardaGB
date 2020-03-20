@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GardaGB</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="cover" class="cover">
+            <div class="top"></div>
+            <div class="bottom"></div>
+            <div class="circle">
+                <div class="shackle"></div>
+                <div class="shackle2"></div>
+                <div class="padlock">
+                    <div class="triangle"></div>
+                    <div class="keyCircle"></div>
+                </div>
+            </div>
+        </div>
+        <div id="navbar">
+            <img id="logo" class="notSticky" src="Images/logo.png">
+            <a href="#"><h3>Garda GB</h3></a>
+            <a href="#"><h4>Sign Up</h4></a>
+        </div>
+        <div class="spacer"></div>
+        <div class="info">
+            <div class="box">
+                <h1 class="special">Garda has never been submitted to any third party, giving them access to the code,<br>NO OTHER ENCRYPTION CAN SAY THAT!</h1>
+            </div>
+            <div class="box">
+                <h1>Garda is NOT...</h1>
+                <ul>
+                    <li>...Government Sponsored</li>
+                    <li>...Equipped with a backdwoor</li>
+                    <li>...Reporting to any government</li>
+                    <li>...Shared with anyone</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h1>Garda is...</h1>
+                <ul>
+                    <li>...Easy to use</li>
+                    <li>...Extremely Secure</li>
+                    <li>...Easy to download</li>
+                    <li>...Very Private and Personal</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h1>Garda will NOT...</h1>
+                <ul>
+                    <li>...Contain Advertisements</li>
+                    <li>...Send Messages in the open</li>
+                    <li>...Share your information with anyone</li>
+                </ul>
+            </div>
+            <div class="box signUp">
+                <h1>Sign Up</h1>
+                <h2>Three months free, Requires only your email address and the pin you generate</h2>
+                <a href="#">Sign Up</a>
+            </div>
+            <div class="box">
+                <h1>Operating Manual</h1>
+                <h2>TO ENCRYPT: From Garda, click "Encrypt and Send" and enter your PIN<br>TO DECRYPT: Open the email, click "Decrypt and Read" and enter your PIN</h2>
+            </div>
+        </div>
+        <div class="bigSpacer"></div>
+        <div id="footer">
+            <div class="footerText">
+                <h4>Contact Us</h4>
+                <p>Email: <a href="mailto:garda@garda.com">garda@garda.com</a></p>
+            </div>
+            <p class="copyright">Copyright &copy; 2020 Joseph McLaughlin All Rights Reserved.</p>
+        </div>
+        <script>
+            setTimeout(function () {
+                document.getElementById("cover").innerHTML = "";
+            }, 2500);
+            window.addEventListener("scroll", function () {
+                var header = document.getElementById("navbar");
+                header.classList.toggle("sticky", window.scrollY > 0);
+            });
+            setTimeout(function () {
+                window.scrollTo(0, 0);
+            }, 10);
+        </script>
+    </body>
+</html>
+
